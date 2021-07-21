@@ -14,7 +14,7 @@
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [
+    "config/**/*.{js,vue}": [
       "eslint --fix",
       "git add"
     ]
