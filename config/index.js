@@ -51,16 +51,16 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'admin',
+    assetsSubDirectory: 'admin',   //打包位置
 
     /**
      * You can set by youself according to actual condition
      * You will need to set this if you plan to deploy your site under a sub path,
      * for example GitHub pages. If you plan to deploy your site to https://foo.github.io/bar/,
      * then assetsPublicPath should be set to "/bar/".
-     * In most cases please use '/' !!!
+     * In most cases please use '/' !!!    应用资源位置
      */
-    assetsPublicPath: '/public/',
+    assetsPublicPath: '/',
 
     /**
      * Source Maps
